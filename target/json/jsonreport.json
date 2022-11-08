@@ -1,0 +1,248 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2500542400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to url \"https://www.demoblaze.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.demoblaze.com/\"",
+                  "offset": 21
+                }
+              ],
+              "location": "PicoContainer.stepdefs.LandingPage_1.user_navigate_to_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5982300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title is \"STORE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"STORE\"",
+                  "offset": 9
+                }
+              ],
+              "location": "PicoContainer.stepdefs.LandingPage_1.title_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-08T11:16:23.551Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5856760800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PicoContainer.stepdefs.LandingPage_1.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User able to login into application",
+        "description": "",
+        "id": "data-sharing-among-the-different-scenario;user-able-to-login-into-application",
+        "after": [
+          {
+            "result": {
+              "duration": 2115526400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PicoContainer.stepdefs.LandingPage_1.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 253096300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on login button",
+            "match": {
+              "location": "PicoContainer.stepdefs.LandingPage_1.user_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10396549000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter mailID and Passward to login into appliction",
+            "match": {
+              "location": "PicoContainer.stepdefs.LandingPage_1.enter_mail_id_and_passward_to_login_into_appliction()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEnd"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2220453700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to url \"https://www.demoblaze.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.demoblaze.com/\"",
+                  "offset": 21
+                }
+              ],
+              "location": "PicoContainer.stepdefs.LandingPage_1.user_navigate_to_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2993400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title is \"STORE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"STORE\"",
+                  "offset": 9
+                }
+              ],
+              "location": "PicoContainer.stepdefs.LandingPage_1.title_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-08T11:16:44.755Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4469238900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PicoContainer.stepdefs.LandingPage_1.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "varify the same user login into application",
+        "description": "",
+        "id": "data-sharing-among-the-different-scenario;varify-the-same-user-login-into-application",
+        "after": [
+          {
+            "result": {
+              "duration": 1550268300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PicoContainer.stepdefs.LandingPage_1.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 245340200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on login button",
+            "match": {
+              "location": "PicoContainer.stepdefs.LandingPage_1.user_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10397153000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter mailID and Passward to login into appliction",
+            "match": {
+              "location": "PicoContainer.stepdefs.LandingPage_1.enter_mail_id_and_passward_to_login_into_appliction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19337500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "varify the user mailID as a credentials and it\u0027s must be match",
+            "match": {
+              "location": "PicoContainer.stepdefs.LandingPage_2.varify_the_user_mail_id_as_a_credentials_and_it_s_must_be_match()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEnd"
+          }
+        ]
+      }
+    ],
+    "name": "Data sharing among the different scenario",
+    "description": "",
+    "id": "data-sharing-among-the-different-scenario",
+    "keyword": "Feature",
+    "uri": "classpath:feature/dataShair.feature",
+    "tags": [
+      {
+        "name": "@EndToEnd",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
